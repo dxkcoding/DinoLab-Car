@@ -1,21 +1,24 @@
 {
-    "name": "无标题",
-    "description": "",
+    "name": "MiBit",
+    "version": "2.0.1",
+    "description": "Extension for XiaoRGEEK MiBit 2.0.1",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "neopixel": "github:991693552/pxt-neopixel",
+        "Mbit_IR":  "github:XiaoRGEEK/MiBit_IR"
+	
+
     },
     "files": [
-        "main.blocks",
+        "README.md",
         "main.ts",
-        "README.md"
+        "_locales/zh-cn/MiBit-strings.json",
+        "_locales/zh-tw/MiBit-strings.json"
+
     ],
     "testFiles": [
         "test.ts"
     ],
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    "public": true
 }
