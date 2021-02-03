@@ -3,7 +3,6 @@
     "description": "Extension for DinoLab MiBit",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*"
     },
     "files": [
