@@ -2,8 +2,7 @@
     "name": "MiBit",
     "description": "Extension for DinoLab MiBit",
     "dependencies": {
-        "core": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "main.blocks",
