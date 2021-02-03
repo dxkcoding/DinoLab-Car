@@ -3,6 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
+        "neopixel": "github:991693552/pxt-neopixel",
+        "MiBit": "github:dxkcoding/Car",
         "radio": "*",
         "microphone": "*"
     },
@@ -17,5 +19,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
