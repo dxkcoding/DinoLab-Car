@@ -1,6 +1,6 @@
 {
     "name": "MiBit",
-    "description": "",
+    "description": "Extension for DinoLab MiBit",
     "dependencies": {
         "core": "*",
         "neopixel": "github:991693552/pxt-neopixel",
