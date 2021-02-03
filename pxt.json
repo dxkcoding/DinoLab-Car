@@ -12,7 +12,7 @@
         "main.ts",
         "README.md",
         "MiBit.ts",
-        "MiBit-strings.json"
+        "_locales/zh-cn/MiBit-strings.json"
     ],
     "testFiles": [
         "test.ts"
