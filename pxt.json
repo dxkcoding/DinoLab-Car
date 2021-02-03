@@ -16,8 +16,7 @@
         "_locales/zh-cn/neopixel-strings.json"
     ],
     "testFiles": [
-        "test.ts",
-        "neotest.ts"
+        "test.ts"
     ],
     "supportedTargets": [
         "microbit"
