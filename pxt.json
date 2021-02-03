@@ -3,7 +3,7 @@
     "description": "Extension for DinoLab MiBit",
     "dependencies": {
         "core": "*",
-        "neopixel": "github:991693552/pxt-neopixel",
+        //"neopixel": "github:991693552/pxt-neopixel",
         "radio": "*",
         "microphone": "*"
     },
@@ -12,10 +12,14 @@
         "main.ts",
         "README.md",
         "MiBit.ts",
-        "_locales/zh-cn/MiBit-strings.json"
+        "neopixel.ts",
+        "sendBuffer.asm",
+        "_locales/zh-cn/MiBit-strings.json",
+        "_locales/zh-cn/neopixel-strings.json"
     ],
     "testFiles": [
-        "test.ts"
+        "test.ts",
+        "neotest.ts"
     ],
     "supportedTargets": [
         "microbit"
